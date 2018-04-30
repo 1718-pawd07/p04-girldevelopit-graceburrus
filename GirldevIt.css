@@ -1,0 +1,67 @@
+/*
+* Grace Burrus
+* April 18, 2018
+* CSS version 4
+*/
+
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Put body attributes here */
+
+body { 
+    background-color: #FAD1D2;
+    color: #ec4253;
+    font-family: "ecofont", Arial, sans-serif;
+}
+
+h1 {
+    text-align:center;
+    text-decortation: underline;
+   
+}
+
+h1, h3, h4, h5, h6 {
+	color: rgb(0,0,0);
+	font-family: "Lucida Handwriting", arial, cursive;
+	text-decoration: bold, underline; 
+}
+
+h2{
+	color: rgb(0,0,0);
+	font-family: "Lucida Handwriting", arial, cursive;
+	text-decoration: underline;
+}
+p {
+	color: rgb(0,0,0);
+}
+
+.floatright {
+    float:right;
+}
+
+a:link {
+	color: blue;	
+}
+
+a:visited {
+	color: #ff69b4;
+}
+
+a:hover, a:focus {
+	color: purple; 
+	text-decoration: bold;
+}
+
+a:active{
+color: black;
+}
+
+footer{
+	color: black;
+	font-family: "Times New Roman", times, serif
+}
